@@ -1,0 +1,50 @@
+[
+  {
+    "id": "product",
+    "name": "Aperture",
+    "category": "Business",
+    "description": "Product-focused landing page with responsive navigation.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/product",
+    "license": "MIT"
+  },
+  {
+    "id": "cover",
+    "name": "Cover",
+    "category": "Landing page",
+    "description": "Minimal full-screen landing page.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/cover",
+    "license": "MIT"
+  },
+  {
+    "id": "carousel",
+    "name": "Carousel",
+    "category": "Business",
+    "description": "Responsive sliding hero and marketing sections.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/carousel",
+    "license": "MIT"
+  },
+  {
+    "id": "blog",
+    "name": "Editorial",
+    "category": "Blog",
+    "description": "Magazine-style editorial layout and article sidebar.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/blog",
+    "license": "MIT"
+  },
+  {
+    "id": "album",
+    "name": "Album",
+    "category": "Portfolio",
+    "description": "Responsive project and image gallery.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/album",
+    "license": "MIT"
+  },
+  {
+    "id": "pricing",
+    "name": "Pricing",
+    "category": "SaaS",
+    "description": "Subscription plans and feature comparison.",
+    "source": "https://github.com/twbs/bootstrap/tree/v5.3.3/site/content/docs/5.3/examples/pricing",
+    "license": "MIT"
+  }
+]

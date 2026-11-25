@@ -1,0 +1,34 @@
+{
+  "name": "forma",
+  "version": "1.0.0",
+  "description": "**Live template gallery, visual website editor and complete source-code ZIP export.**",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aamilsamsung/website-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aamilsamsung/website-builder/issues"
+  },
+  "homepage": "https://github.com/Aamilsamsung/website-builder#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "2.49.4",
+    "esbuild": "0.25.0",
+    "jszip": "3.10.1"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^131.0.1",
+    "playwright-core": "^1.49.1"
+  }
+}
