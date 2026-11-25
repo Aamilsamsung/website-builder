@@ -7,7 +7,8 @@ function load(){
  const root={innerHTML:''};
  const document={querySelector:()=>root,addEventListener:()=>{}};
  const storage={getItem:()=>null,setItem:()=>{}};
- const api=Function('document','localStorage','TextEncoder','Blob',script+'\nreturn {templates,fresh,source,zipBytes,start,navigate};')(document,storage,TextEncoder,Blob);
+ const window={scrollTo:()=>{}};
+ const api=Function('document','localStorage','TextEncoder','Blob','window',script+'\nreturn {templates,fresh,source,zipBytes,start,navigate};')(document,storage,TextEncoder,Blob,window);
  return {root,...api};
 }
 test('standalone HTML contains executable JavaScript',()=>{
