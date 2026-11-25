@@ -24,3 +24,15 @@ main #demo .demo{animation-name:forma-editor-scroll;animation-range:entry 0% ent
 .card img.shot{transition:scale .65s cubic-bezier(.16,1,.3,1)}.card:hover img.shot{scale:1.045}
 }
 @media(max-width:750px){.hero .wrap{min-height:0}}
+
+/* Approved reference: lavender editorial landing */
+:root{--accent:#652bdc;--ink:#190e35;--lav:#eee5ff}
+.nav .wrap{height:68px}.nav{background:#f9f5ffef}.nav .actions button:last-child,.hero .primary{background:#6029d3;border-color:#6029d3;color:white}
+.hero{background:radial-gradient(ellipse at 82% 55%,#e6d9ff 0,transparent 62%),linear-gradient(115deg,#f7efff,#faf9fd);overflow:hidden}
+.hero .wrap{grid-template-columns: .95fr 1.15fr;gap:48px;min-height:540px;padding-top:55px;padding-bottom:65px}
+.hero h1{font-size:clamp(38px,4vw,60px);letter-spacing:-2.6px;line-height:1.08}.hero p{font-size:19px;line-height:1.55}.hero .actions button{padding:14px 25px}.hero .demo{position:relative;isolation:isolate;overflow:visible;background:#f9f7ff;box-shadow:0 25px 55px #4f25882b;transform:rotate(-3deg);border-radius:20px}.hero .demo:before{content:"";position:absolute;inset:12px -22px -22px 22px;z-index:-1;border-radius:28px;background:linear-gradient(140deg,#e3caff,#b7a3f1);transform:rotate(8deg);opacity:.65}.hero .demo-body{background:#f9f7ff;border-radius:0 0 20px 20px}.hero .demo-bar{background:#fff;border-radius:20px 20px 0 0}.hero .demo-body{min-height:365px}.hero .demo-right{background:#fff;border-radius:0 0 20px 0}.hero .demo-left{background:#f1edf8}.hero .demo-canvas{background:#eeeaf5}.hero .demo-right input{background:white}.hero .eyebrow{color:#5424b9;background:#e9dbff}
+#templates .grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}#templates .card{border-radius:12px}#templates .card .actions{flex-wrap:wrap}#templates .card .actions button{font-size:12px;padding:8px 10px}#templates .section-head h2{font-size:clamp(30px,3vw,42px)}#templates .filters button{background:white}#templates .filters button.active{background:#652bdc;color:white;border-color:#652bdc}
+.hero .reveal:after{content:"Real website templates   ·   Visual editor   ·   Download full code";display:block;margin-top:30px;font-size:13px;color:#514467;font-weight:600}
+@media(prefers-reduced-motion:no-preference){.hero .demo{animation:forma-reference-in 1.25s cubic-bezier(.16,1,.3,1) .18s both}@keyframes forma-reference-in{from{opacity:0;transform:translateY(80px) rotate(-9deg) scale(.88)}to{opacity:1;transform:translateY(0) rotate(-3deg) scale(1)}}.hero .demo:before{animation:forma-backplate 7s ease-in-out infinite alternate}@keyframes forma-backplate{from{transform:rotate(6deg) translateY(0)}to{transform:rotate(9deg) translateY(-9px)}}}
+@media(max-width:1050px){#templates .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero .wrap{gap:28px}}
+@media(max-width:750px){.hero .wrap{grid-template-columns:1fr;min-height:0;padding-top:42px;padding-bottom:50px}.hero .demo{transform:none;margin:8px 10px}.hero .demo-body{min-height:270px}#templates .grid{grid-template-columns:1fr}.hero h1{letter-spacing:-1.6px}.nav .wrap{height:auto}.hero .reveal:after{line-height:1.8}}
